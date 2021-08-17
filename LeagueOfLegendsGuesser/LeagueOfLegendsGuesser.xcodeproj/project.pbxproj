@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B116C67726CB357B00F196E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C67626CB357B00F196E8 /* AppDelegate.swift */; };
-		B116C67B26CB357B00F196E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C67A26CB357B00F196E8 /* ViewController.swift */; };
 		B116C68026CB357B00F196E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B116C67F26CB357B00F196E8 /* Assets.xcassets */; };
 		B116C68326CB357B00F196E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B116C68126CB357B00F196E8 /* LaunchScreen.storyboard */; };
 		B116C68E26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C68D26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift */; };
 		B116C69926CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C69826CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift */; };
+		B116C71E26CB36BC00F196E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C71D26CB36BC00F196E8 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		B116C67326CB357B00F196E8 /* LeagueOfLegendsGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueOfLegendsGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B116C67626CB357B00F196E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B116C67A26CB357B00F196E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B116C67F26CB357B00F196E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B116C68226CB357B00F196E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B116C68426CB357B00F196E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		B116C69426CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfLegendsGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B116C69826CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsGuesserUITests.swift; sourceTree = "<group>"; };
 		B116C69A26CB357B00F196E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B116C71D26CB36BC00F196E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +95,8 @@
 		B116C67526CB357B00F196E8 /* LeagueOfLegendsGuesser */ = {
 			isa = PBXGroup;
 			children = (
-				B116C67626CB357B00F196E8 /* AppDelegate.swift */,
-				B116C67A26CB357B00F196E8 /* ViewController.swift */,
-				B116C67F26CB357B00F196E8 /* Assets.xcassets */,
-				B116C68126CB357B00F196E8 /* LaunchScreen.storyboard */,
-				B116C68426CB357B00F196E8 /* Info.plist */,
+				B116C6A626CB367400F196E8 /* Scenes */,
+				B116C71B26CB36AB00F196E8 /* Resources */,
 			);
 			path = LeagueOfLegendsGuesser;
 			sourceTree = "<group>";
@@ -120,6 +117,41 @@
 				B116C69A26CB357B00F196E8 /* Info.plist */,
 			);
 			path = LeagueOfLegendsGuesserUITests;
+			sourceTree = "<group>";
+		};
+		B116C6A626CB367400F196E8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B116C71F26CB370300F196E8 /* LaunchScreen */,
+				B116C71C26CB36B200F196E8 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B116C71B26CB36AB00F196E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B116C68426CB357B00F196E8 /* Info.plist */,
+				B116C67626CB357B00F196E8 /* AppDelegate.swift */,
+				B116C67F26CB357B00F196E8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B116C71C26CB36B200F196E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B116C71D26CB36BC00F196E8 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B116C71F26CB370300F196E8 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B116C68126CB357B00F196E8 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B116C67B26CB357B00F196E8 /* ViewController.swift in Sources */,
 				B116C67726CB357B00F196E8 /* AppDelegate.swift in Sources */,
+				B116C71E26CB36BC00F196E8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G832RZW6L8;
-				INFOPLIST_FILE = LeagueOfLegendsGuesser/Info.plist;
+				INFOPLIST_FILE = LeagueOfLegendsGuesser/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G832RZW6L8;
-				INFOPLIST_FILE = LeagueOfLegendsGuesser/Info.plist;
+				INFOPLIST_FILE = LeagueOfLegendsGuesser/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
