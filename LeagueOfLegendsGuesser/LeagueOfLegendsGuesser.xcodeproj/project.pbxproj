@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B116C67726CB357B00F196E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C67626CB357B00F196E8 /* AppDelegate.swift */; };
+		B116C67926CB357B00F196E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C67826CB357B00F196E8 /* SceneDelegate.swift */; };
+		B116C67B26CB357B00F196E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C67A26CB357B00F196E8 /* ViewController.swift */; };
+		B116C67E26CB357B00F196E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B116C67C26CB357B00F196E8 /* Main.storyboard */; };
+		B116C68026CB357B00F196E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B116C67F26CB357B00F196E8 /* Assets.xcassets */; };
+		B116C68326CB357B00F196E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B116C68126CB357B00F196E8 /* LaunchScreen.storyboard */; };
+		B116C68E26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C68D26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift */; };
+		B116C69926CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116C69826CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B116C68A26CB357B00F196E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B116C66B26CB357B00F196E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B116C67226CB357B00F196E8;
+			remoteInfo = LeagueOfLegendsGuesser;
+		};
+		B116C69526CB357B00F196E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B116C66B26CB357B00F196E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B116C67226CB357B00F196E8;
+			remoteInfo = LeagueOfLegendsGuesser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B116C67326CB357B00F196E8 /* LeagueOfLegendsGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueOfLegendsGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B116C67626CB357B00F196E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B116C67826CB357B00F196E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B116C67A26CB357B00F196E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B116C67D26CB357B00F196E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B116C67F26CB357B00F196E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B116C68226CB357B00F196E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B116C68426CB357B00F196E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B116C68926CB357B00F196E8 /* LeagueOfLegendsGuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfLegendsGuesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B116C68D26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsGuesserTests.swift; sourceTree = "<group>"; };
+		B116C68F26CB357B00F196E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B116C69426CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfLegendsGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B116C69826CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfLegendsGuesserUITests.swift; sourceTree = "<group>"; };
+		B116C69A26CB357B00F196E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B116C67026CB357B00F196E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116C68626CB357B00F196E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116C69126CB357B00F196E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B116C66A26CB357B00F196E8 = {
+			isa = PBXGroup;
+			children = (
+				B116C67526CB357B00F196E8 /* LeagueOfLegendsGuesser */,
+				B116C68C26CB357B00F196E8 /* LeagueOfLegendsGuesserTests */,
+				B116C69726CB357B00F196E8 /* LeagueOfLegendsGuesserUITests */,
+				B116C67426CB357B00F196E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B116C67426CB357B00F196E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B116C67326CB357B00F196E8 /* LeagueOfLegendsGuesser.app */,
+				B116C68926CB357B00F196E8 /* LeagueOfLegendsGuesserTests.xctest */,
+				B116C69426CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B116C67526CB357B00F196E8 /* LeagueOfLegendsGuesser */ = {
+			isa = PBXGroup;
+			children = (
+				B116C67626CB357B00F196E8 /* AppDelegate.swift */,
+				B116C67826CB357B00F196E8 /* SceneDelegate.swift */,
+				B116C67A26CB357B00F196E8 /* ViewController.swift */,
+				B116C67C26CB357B00F196E8 /* Main.storyboard */,
+				B116C67F26CB357B00F196E8 /* Assets.xcassets */,
+				B116C68126CB357B00F196E8 /* LaunchScreen.storyboard */,
+				B116C68426CB357B00F196E8 /* Info.plist */,
+			);
+			path = LeagueOfLegendsGuesser;
+			sourceTree = "<group>";
+		};
+		B116C68C26CB357B00F196E8 /* LeagueOfLegendsGuesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B116C68D26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift */,
+				B116C68F26CB357B00F196E8 /* Info.plist */,
+			);
+			path = LeagueOfLegendsGuesserTests;
+			sourceTree = "<group>";
+		};
+		B116C69726CB357B00F196E8 /* LeagueOfLegendsGuesserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B116C69826CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift */,
+				B116C69A26CB357B00F196E8 /* Info.plist */,
+			);
+			path = LeagueOfLegendsGuesserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B116C67226CB357B00F196E8 /* LeagueOfLegendsGuesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B116C69D26CB357B00F196E8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsGuesser" */;
+			buildPhases = (
+				B116C66F26CB357B00F196E8 /* Sources */,
+				B116C67026CB357B00F196E8 /* Frameworks */,
+				B116C67126CB357B00F196E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeagueOfLegendsGuesser;
+			productName = LeagueOfLegendsGuesser;
+			productReference = B116C67326CB357B00F196E8 /* LeagueOfLegendsGuesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B116C68826CB357B00F196E8 /* LeagueOfLegendsGuesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B116C6A026CB357B00F196E8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsGuesserTests" */;
+			buildPhases = (
+				B116C68526CB357B00F196E8 /* Sources */,
+				B116C68626CB357B00F196E8 /* Frameworks */,
+				B116C68726CB357B00F196E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B116C68B26CB357B00F196E8 /* PBXTargetDependency */,
+			);
+			name = LeagueOfLegendsGuesserTests;
+			productName = LeagueOfLegendsGuesserTests;
+			productReference = B116C68926CB357B00F196E8 /* LeagueOfLegendsGuesserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B116C69326CB357B00F196E8 /* LeagueOfLegendsGuesserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B116C6A326CB357B00F196E8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsGuesserUITests" */;
+			buildPhases = (
+				B116C69026CB357B00F196E8 /* Sources */,
+				B116C69126CB357B00F196E8 /* Frameworks */,
+				B116C69226CB357B00F196E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B116C69626CB357B00F196E8 /* PBXTargetDependency */,
+			);
+			name = LeagueOfLegendsGuesserUITests;
+			productName = LeagueOfLegendsGuesserUITests;
+			productReference = B116C69426CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B116C66B26CB357B00F196E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B116C67226CB357B00F196E8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B116C68826CB357B00F196E8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B116C67226CB357B00F196E8;
+					};
+					B116C69326CB357B00F196E8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B116C67226CB357B00F196E8;
+					};
+				};
+			};
+			buildConfigurationList = B116C66E26CB357B00F196E8 /* Build configuration list for PBXProject "LeagueOfLegendsGuesser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B116C66A26CB357B00F196E8;
+			productRefGroup = B116C67426CB357B00F196E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B116C67226CB357B00F196E8 /* LeagueOfLegendsGuesser */,
+				B116C68826CB357B00F196E8 /* LeagueOfLegendsGuesserTests */,
+				B116C69326CB357B00F196E8 /* LeagueOfLegendsGuesserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B116C67126CB357B00F196E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116C68326CB357B00F196E8 /* LaunchScreen.storyboard in Resources */,
+				B116C68026CB357B00F196E8 /* Assets.xcassets in Resources */,
+				B116C67E26CB357B00F196E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116C68726CB357B00F196E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116C69226CB357B00F196E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B116C66F26CB357B00F196E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116C67B26CB357B00F196E8 /* ViewController.swift in Sources */,
+				B116C67726CB357B00F196E8 /* AppDelegate.swift in Sources */,
+				B116C67926CB357B00F196E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116C68526CB357B00F196E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116C68E26CB357B00F196E8 /* LeagueOfLegendsGuesserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116C69026CB357B00F196E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116C69926CB357B00F196E8 /* LeagueOfLegendsGuesserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B116C68B26CB357B00F196E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B116C67226CB357B00F196E8 /* LeagueOfLegendsGuesser */;
+			targetProxy = B116C68A26CB357B00F196E8 /* PBXContainerItemProxy */;
+		};
+		B116C69626CB357B00F196E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B116C67226CB357B00F196E8 /* LeagueOfLegendsGuesser */;
+			targetProxy = B116C69526CB357B00F196E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B116C67C26CB357B00F196E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B116C67D26CB357B00F196E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B116C68126CB357B00F196E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B116C68226CB357B00F196E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B116C69B26CB357B00F196E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B116C69C26CB357B00F196E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B116C69E26CB357B00F196E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G832RZW6L8;
+				INFOPLIST_FILE = LeagueOfLegendsGuesser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.barone.LeagueOfLegendsGuesser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B116C69F26CB357B00F196E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G832RZW6L8;
+				INFOPLIST_FILE = LeagueOfLegendsGuesser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.barone.LeagueOfLegendsGuesser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B116C6A126CB357B00F196E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G832RZW6L8;
+				INFOPLIST_FILE = LeagueOfLegendsGuesserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.barone.LeagueOfLegendsGuesserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueOfLegendsGuesser.app/LeagueOfLegendsGuesser";
+			};
+			name = Debug;
+		};
+		B116C6A226CB357B00F196E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G832RZW6L8;
+				INFOPLIST_FILE = LeagueOfLegendsGuesserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.barone.LeagueOfLegendsGuesserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueOfLegendsGuesser.app/LeagueOfLegendsGuesser";
+			};
+			name = Release;
+		};
+		B116C6A426CB357B00F196E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G832RZW6L8;
+				INFOPLIST_FILE = LeagueOfLegendsGuesserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.barone.LeagueOfLegendsGuesserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeagueOfLegendsGuesser;
+			};
+			name = Debug;
+		};
+		B116C6A526CB357B00F196E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G832RZW6L8;
+				INFOPLIST_FILE = LeagueOfLegendsGuesserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.barone.LeagueOfLegendsGuesserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeagueOfLegendsGuesser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B116C66E26CB357B00F196E8 /* Build configuration list for PBXProject "LeagueOfLegendsGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B116C69B26CB357B00F196E8 /* Debug */,
+				B116C69C26CB357B00F196E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B116C69D26CB357B00F196E8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B116C69E26CB357B00F196E8 /* Debug */,
+				B116C69F26CB357B00F196E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B116C6A026CB357B00F196E8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsGuesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B116C6A126CB357B00F196E8 /* Debug */,
+				B116C6A226CB357B00F196E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B116C6A326CB357B00F196E8 /* Build configuration list for PBXNativeTarget "LeagueOfLegendsGuesserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B116C6A426CB357B00F196E8 /* Debug */,
+				B116C6A526CB357B00F196E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B116C66B26CB357B00F196E8 /* Project object */;
+}
